@@ -1,16 +1,17 @@
-# poolsuite
+# poolsuite for Android TV
 
-A new Flutter project.
+This is a crappy application I threw together in an hour to get [Poolsuite](https://www.poolsuite.net) onto my TV, because I don't own any fruit devices
 
-## Getting Started
+## To build
 
-This project is a starting point for a Flutter application.
+1. Install Android Studio and Flutter (I used v2.2.1) and put it in your path
+1. `flutter build apk`
+1. `adb install -r build\app\outputs\flutter-apk\app-release.apk`
 
-A few resources to get you started if this is your first Flutter project:
+## Why don't you build it for me?
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+I'm too lazy to make a release keystore
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How do I pause / next track / literally anything other than listen to the current track
+
+You can't, I'm extremely lazy
